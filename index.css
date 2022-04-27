@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 25px;
+    
+    
+}
+
+
+.flex-header{
+    display: flex;
+    height: 20vh;
+    
+}
+
+.flex-content {
+    display: flex;
+}
+
+.flex-footer {
+    display: flex;
+    height: 20vh;
+}
+
+.Header {
+    background-color: black;
+    flex-grow: 1;
+}
+
+.Article {
+    
+    background-color:aliceblue;
+    align-self: flex-start;
+    height: 60vh;
+    flex-grow: 3;
+   
+}
+
+.Footer {
+    background-color: black;  
+    flex-grow: 1;
+}
+
+.Aside {
+    background-color: rgb(49, 7, 117);
+    flex-grow: 1;
+}
+
+.Nav {
+    background-color: rgb(184, 25, 120);
+    flex-grow: 1;
+}
+
+.Header,.Aside,.Nav,.Footer {
+    color: white;
+}

@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 25px;
+    
+    
+}
+
+.flex-container {
+    display:flex;
+    
+
+}
+
+.flex-last-container {
+    display: flex;
+}
+
+
+
+.header {
+    background-color: black;
+    height: 20vh;
+    width: 175vh;
+   
+}
+
+.article {
+    
+    background-color:aliceblue;
+    height: 60vh;
+    width: 140vh;
+}
+
+.footer {
+    background-color: black; 
+    height: 20vh;
+    width: 175vh; 
+    
+}
+
+.aside {
+    background-color: rgb(49, 7, 117);
+    width:35vh;
+    
+}
+
+.nav {
+    background-color: rgb(184, 25, 120);
+    height: 100vh;
+    width: 25vh;
+    
+}
+
+.header,.aside,.nav,.footer {
+    color: white;
+    
+    
+}
+
+
+
+
+
+
+
+
